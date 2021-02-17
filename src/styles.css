@@ -1,4 +1,6 @@
-/* You can add global styles to this file, and also import other style files */
+
+/* il faut ajouter cette importation pour utiliser les fonction de angular material*/
+@import '@angular/material/prebuilt-themes/deeppurple-amber.css'; 
 
 :root{
     --of-white: #fffff2;
@@ -9,13 +11,13 @@ body {
 }
 
 .basic-container {
-    padding: 30px;
+    padding: 30px; /*basic -container est une classe dans app.component.html */
 }
 
 .mat-figure:hover {
-    background: rgba(0,0,0,0.2);
+    background: rgba(0,0,0,0.2); /* lorsqu'on met la souris sur l'image l'image aura un effet gris */
 }
 
 .mat-app-background {
-    background-color: var(--white-of);
+    background-color: var(--white-of); /* on modifie le backgroud */
 }
